@@ -1,3 +1,3 @@
 # Explanation!
 
-Repositório dos meus estudos do curso GoStack da Rocketseat!
+Repositório dos meus estudos referentes ao curso GoStack da Rocketseat!
