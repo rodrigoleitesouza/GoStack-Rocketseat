@@ -13,3 +13,22 @@ Utilizado para liberar todas as permissÃµes do console PowerShell. Deve ser util
 [yarn dev]
 
 Utilizado para rodar o script que irÃ¡ ativar o servidor criado, logo os testes no Insomnia poderÃ£o ser realizados.
+
+
+
+[Instalação Chocolatey]
+
+https://chocolatey.org/install
+
+
+
+[Instalação Node.js]
+
+https://nodejs.org/en/download/package-manager/#windows
+
+
+
+[Instalação Yarn]
+
+https://yarnpkg.com/getting-started/install
+
