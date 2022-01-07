@@ -32,3 +32,9 @@ https://nodejs.org/en/download/package-manager/#windows
 
 https://yarnpkg.com/getting-started/install
 
+
+
+[Iniciar container do Docker]
+
+Para iniciar o container do Docker digitar no terminar: "docker start database".
+
