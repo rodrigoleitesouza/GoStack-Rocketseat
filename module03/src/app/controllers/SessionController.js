@@ -4,12 +4,11 @@ import * as Yup from "yup";
 import User from "../models/User";
 
 import authConfig from "../../config/auth";
-import auth from "../../config/auth";
 
 class SessionController {
   async store(req, res) {
+
     const schema = Yup.object().shape({
-      name: Yup.string().required(),
       email: Yup.string().email().required(),
       password: Yup.string().required(),
     });

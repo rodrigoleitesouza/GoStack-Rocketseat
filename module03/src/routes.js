@@ -15,7 +15,7 @@ routes.post("/sessions", SessionController.store);
 
 routes.use(authMiddleware);
 
-routes.put("/users", UserController.update );
+routes.put("/users", UserController.update);
 
 routes.post("/files", upload.single("file"), (req, res) => {
     return res.json({ ok: "true" });
