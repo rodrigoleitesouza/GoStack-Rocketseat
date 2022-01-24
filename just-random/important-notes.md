@@ -58,6 +58,8 @@ yarn add styled-component@4.3.2
 
 yarn add react-native-vector-icons@6.6.0
 
+yarn add axios@0.19.0
+
 
 
 
