@@ -38,3 +38,6 @@ https://yarnpkg.com/getting-started/install
 
 Para iniciar o container do Docker digitar no terminar: "docker start database".
 
+
+yarn add react-navigation@4.0.10
+
