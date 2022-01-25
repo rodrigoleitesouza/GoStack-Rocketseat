@@ -1,29 +1,58 @@
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+/*
+import * as React from 'react';
+import { View, Text } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+import User from './pages/User';
+import Main from './pages/Main';
+
+
+const Stack = createNativeStackNavigator();
+
+function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="9999" component={Main} />
+        <Stack.Screen name="Home333" component={User} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+
+export default App;
+*/
+
+/*
+import * as React from 'react';
+import { View, Text } from 'react-native';
 import "./config/ReactotronConfig";
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#F5FCFF",
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: "center",
-    margin: 10,
-  }
-});
-
-console.tron.log("Hello, World22!");
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.welcome}>Apenas um teste!</Text>
-      <Text style={styles.welcome}>Abaix4444o!</Text>
+    <View>
+      <Text>Apenas um teste!</Text>
+      <Text>Abaix2889!</Text>
     </View>
   );
 }
+*/
+
+import * as React from 'react';
+import { StatusBar } from 'react-native';
+
+import "./config/ReactotronConfig";
+
+import Routes from './routes';
+
+export default function App() {
+  return (
+    <>
+      <StatusBar barStyle='light-content' backgroundColor="#7159c1"/>
+      <Routes />
+    </>
+  );
+}
+
 
