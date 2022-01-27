@@ -74,7 +74,7 @@ export default class Main extends Component {
 
   render() {
     const { users, newUser, loading } = this.state;
-    //console.tron.log("KKKKK");
+
     return (
       <Container>
         <Form>
@@ -104,6 +104,8 @@ export default class Main extends Component {
               <Avatar source={{ uri: item.avatar }} />
               <Name>{item.name}</Name>
               <Bio>{item.bio}</Bio>
+
+
 
               <ProfileButton onPress={() => this.handleNavigate(item)}>
                 <ProfileButtonText>Ver perfil</ProfileButtonText>

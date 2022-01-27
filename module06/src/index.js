@@ -39,7 +39,7 @@ export default function App() {
 }
 */
 
-//import 'react-native-gesture-handler';
+import 'react-native-gesture-handler';
 import * as React from 'react';
 import { StatusBar } from 'react-native';
 
