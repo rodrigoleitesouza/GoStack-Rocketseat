@@ -65,11 +65,22 @@ export default class Main extends Component {
     Keyboard.dismiss();
   };
 
+
+
+  handleNavigate = () => {
+    const { navigation } = this.props;
+
+    navigation.navigate("User");
+  };
+
+
+/*
   handleNavigate = (user) => {
     const { navigation } = this.props;
 
     navigation.navigate("User", { user });
   }
+*/
 
 
   render() {

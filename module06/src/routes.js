@@ -13,9 +13,10 @@ function Routes() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-         name="Usuários"
+         name="Main"
          component={Main}
          options={{
+          title: "Usuários",
           headerTitleAlign: "center",
           headerBackTitleVisible: false,
           headerStyle: {
@@ -25,10 +26,16 @@ function Routes() {
          }}
         />
         <Stack.Screen
-         name="Home333"
+         name="User"
          component={User}
          options={{
-
+          title: "Página User",
+          headerTitleAlign: "center",
+          headerBackTitleVisible: false,
+          headerStyle: {
+            backgroundColor: "#7159c1",
+          },
+          headerTintColor: "#FFF",
          }}
         />
       </Stack.Navigator>
