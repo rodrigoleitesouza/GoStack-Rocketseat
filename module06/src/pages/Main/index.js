@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Keyboard, ActivityIndicator } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Icon from 'react-native-vector-icons/MaterialIcons';
@@ -19,6 +20,11 @@ import {
 } from './styles';
 
 export default class Main extends Component {
+  static propTypes = {
+    navigation: PropTypes.shape({
+      navigate: PropTypes.func,
+    }).isRequired,
+  };
 
   state = {
     newUser: '',
@@ -66,21 +72,12 @@ export default class Main extends Component {
   };
 
 
-
-  handleNavigate = () => {
-    const { navigation } = this.props;
-
-    navigation.navigate("User");
-  };
-
-
-/*
   handleNavigate = (user) => {
     const { navigation } = this.props;
 
     navigation.navigate("User", { user });
   }
-*/
+
 
 
   render() {

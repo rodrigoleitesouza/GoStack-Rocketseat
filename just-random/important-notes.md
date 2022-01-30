@@ -60,6 +60,9 @@ yarn add react-native-vector-icons@6.6.0
 
 yarn add axios@0.19.0
 
+Para iniciar o [module06] digite no terminal os comandos:
+yarn start
+yarn run react-native run-android
 
 
 

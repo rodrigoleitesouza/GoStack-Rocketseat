@@ -29,7 +29,7 @@ function Routes() {
          name="User"
          component={User}
          options={{
-          title: "Página User",
+          title: "Repositórios",
           headerTitleAlign: "center",
           headerBackTitleVisible: false,
           headerStyle: {
