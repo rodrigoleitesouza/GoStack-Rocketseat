@@ -1,1 +1,5 @@
 yarn add react-router-dom@5.0.1
+
+yarn add styled-components@4.3.2
+
+yarn add react-icons@3.7.0
