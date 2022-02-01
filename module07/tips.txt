@@ -13,3 +13,5 @@ yarn add axios@0.19.0
 json-server server.json -p 3333 -w ////////////// [npx json-server --watch ./server.json]
 
 yarn add redux@4.0.1 react-redux@7.1.0
+
+yarn add reactotron-react-js@3.3.2 reactotron-redux@3.1.1
