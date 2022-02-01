@@ -5,3 +5,9 @@ yarn add styled-components@4.3.2
 yarn add react-icons@3.7.0
 
 yarn add polished@3.4.1
+
+yarn global add json-server@0.15.0
+
+yarn add axios@0.19.0
+
+json-server server.json -p 3333 -w

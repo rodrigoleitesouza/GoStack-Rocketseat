@@ -28,7 +28,7 @@ export const ProductList = styled.ul`
 
         > span {
             font-size: 21px;
-            line-weight: bold;
+            font-weight: bold;
             margin: 5px 0 20px;
         }
 
@@ -40,7 +40,7 @@ export const ProductList = styled.ul`
             overflow: hidden;
             margin-top: auto;
             display: flex;
-            align-items: center; 
+            align-items: center;
             transition: background 0.2s;
 
             &:hover {
