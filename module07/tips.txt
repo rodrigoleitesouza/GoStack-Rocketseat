@@ -25,3 +25,11 @@ yarn add reactotron-redux-saga@4.2.2
 yarn add react-toastify@5.3.1
 
 yarn add history@4.9.0
+
+-------------------------------------------------------------------
+
+json-server server.json -p 3333 -> Para iniciar a API fake!
+
+yarn start -> Para iniciar o server de desenvolvimento!
+
+-------------------------------------------------------------------
