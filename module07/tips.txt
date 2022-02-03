@@ -23,3 +23,5 @@ yarn add redux-saga@1.0.5
 yarn add reactotron-redux-saga@4.2.2
 
 yarn add react-toastify@5.3.1
+
+yarn add history@4.9.0
