@@ -17,7 +17,7 @@ function App() {
     <Provider store={store}>
       <Router history={history}>
         <Header />
-        <Routes />Router
+        <Routes />
         <GlobalStyle />
         <ToastContainer autoClose={3000} />
       </Router>

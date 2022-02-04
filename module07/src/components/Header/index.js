@@ -10,17 +10,22 @@ import { Container, Cart } from "./styles";
 
 export default function Header() {
   const cartSize = useSelector(state => state.cart.length);
+  
+  if (cartSize === 1) {
+    var textCartSize = "item";
+  } else {
+    var textCartSize = "itens";
+  }
 
   return (
     <Container>
       <Link to="/">
         <img src="" alt="Rocketshoes" />
       </Link>
-
       <Cart to="/cart">
         <div>
           <strong>Meu carrinho</strong>
-          <span>{cartSize} itens</span>
+          <span>{cartSize} {textCartSize}</span>
         </div>
         <MdShoppingBasket size={36} color="#FFF" />
       </Cart>
