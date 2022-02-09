@@ -13,3 +13,5 @@ yarn add babel-plugin-root-import@6.2.0 -D
 yarn add polished@latest
 
 yarn add @rocketseat/unform@1.5.1
+
+yarn add yup@0.27.0
