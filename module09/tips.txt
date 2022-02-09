@@ -15,3 +15,5 @@ yarn add polished@latest
 yarn add @rocketseat/unform@1.5.1
 
 yarn add yup@0.27.0
+
+yarn add redux@4.0.1 redux-saga@1.0.5 react-redux@7.1.0 reactotron-redux@3.1.1 reactotron-redux-saga@4.2.2 immer@3.1.3
