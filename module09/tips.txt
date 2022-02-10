@@ -21,3 +21,5 @@ yarn add redux@4.0.1 redux-saga@1.0.5 react-redux@7.1.0 reactotron-redux@3.1.1 r
 yarn add redux-persist@latest
 
 yarn add react-toastify@5.3.1
+
+yarn add react-icons@3.7.0
