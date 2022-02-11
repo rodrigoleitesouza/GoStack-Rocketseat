@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
+import 'react-perfect-scrollbar/dist/css/styles.css';
 import "react-toastify/dist/ReactToastify.css";
 
 export default createGlobalStyle`
@@ -38,5 +39,9 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+
+  .ps{
+    overflow: auto !important;
   }
 `;
