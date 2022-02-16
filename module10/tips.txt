@@ -8,3 +8,6 @@ yarn add react-native-linear-gradient@latest
 
 yarn add styled-components@4.3.2
 
+yarn add prop-types@latest
+
+yarn add react-native-vector-icons@6.6.0
