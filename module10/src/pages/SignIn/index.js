@@ -20,6 +20,8 @@ export default function SignIn({ navigation }) {
 
   function handleSubmit() {
     dispatch(signInRequest(email, password));
+    //const isSigned = useSelector(state => state.auth.signed);
+    //console.tron.warn(isSigned);
   }
 
   return (
