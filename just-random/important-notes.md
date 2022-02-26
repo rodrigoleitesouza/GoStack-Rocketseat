@@ -38,3 +38,4 @@ https://yarnpkg.com/getting-started/install
 
 Para iniciar o container do Docker digitar no terminar: "docker start database".
 
+.
