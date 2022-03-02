@@ -1,7 +1,7 @@
 /*
 import React, { useMemo } from 'react';
-//import { DatePickerAndroidStatic } from 'react-native';
-import DateTimePicker from '@react-native-community/datetimepicker';
+import { DatePickerAndroid } from 'react-native';
+//import DateTimePicker from '@react-native-community/datetimepicker';
 import { format } from 'date-fns';
 import pt from 'date-fns/locale/pt';
 
@@ -16,12 +16,12 @@ export default function DateInput({ date, onChange }) {
   );
 
   async function handleOpenPicker() {
-    const { action, year, month, day } = await DateTimePicker.open({
+    const { action, year, month, day } = await DatePickerAndroid.open({
       mode: 'spinner',
       date,
     });
 
-    if (action === DateTimePicker.dateSetAction) {
+    if (action === DatePickerAndroid.dateSetAction) {
       const selectedDate = new Date(year, month, day);
 
       onChange(selectedDate);
@@ -38,6 +38,8 @@ export default function DateInput({ date, onChange }) {
   );
 }
 */
+
+
 
 import React, { useState, useMemo } from 'react';
 import { DatePickerIOS } from 'react-native';
@@ -71,8 +73,8 @@ export default function DateInput({ date, onChange }) {
             onChange={onChange}
             minimumDate={new Date()}
             minuteInterval={60}
-            locale='pt'
-            mode='date'
+            locale="pt"
+            mode="date"
           />
         </Picker>
       )}
