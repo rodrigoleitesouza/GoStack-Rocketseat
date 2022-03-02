@@ -17,6 +17,7 @@ export const Provider = styled.TouchableOpacity`
   border-radius: 4px;
   padding: 20px;
   flex: 1;
+  max-width: 150px;
 
   align-items: center;
   margin: 0 10px 20px;
@@ -31,7 +32,7 @@ export const Avatar = styled.Image`
 export const Name = styled.Text`
   margin-top: 15px;
   font-size: 14px;
-  font-wight: bold;
+  font-weight: bold;
   color: #333;
   text-align: center;
 `;
