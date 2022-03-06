@@ -10,7 +10,6 @@ export default function SelectDateTime() {
   console.tron.warn(date);
   console.tron.warn(setDate);
 
-
   return (
     <Background>
       <Container>
