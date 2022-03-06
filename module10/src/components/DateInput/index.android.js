@@ -42,7 +42,6 @@ export default function DateInput({ date, onChange }) {
 
 
 import React, { useState, useMemo } from 'react';
-import { DatePickerIOS } from 'react-native';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { format } from 'date-fns';
 import pt from 'date-fns/locale/pt';
@@ -71,6 +70,8 @@ export default function DateInput({ date, onChange }) {
           <DateTimePicker
             value={date}
             onChange={onChange}
+            is24Hour={true}
+            dateFormat="dd 'de' MMMM 'de' yyyy"
             minimumDate={new Date()}
             minuteInterval={60}
             locale="pt"

@@ -16,7 +16,10 @@ export default function DateInput({ date, onChange }) {
     [date]
   );
 
+  console.warn.tron(date);
+  console.warn.tron(dateFormatted);
   return (
+
     <Container>
       <DateButton onPress={() => setOpened(!opened)}>
         <Icon name="event" color="#FFF" size={20} />
@@ -28,6 +31,7 @@ export default function DateInput({ date, onChange }) {
           <DateTimePicker
             value={date}
             onChange={onChange}
+            dateFormat="dd 'de' MMMM 'de' yyyy"
             minimumDate={new Date()}
             minuteInterval={60}
             locale='pt'
