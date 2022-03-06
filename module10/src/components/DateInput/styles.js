@@ -25,4 +25,3 @@ export const Picker = styled.View`
   padding: 15px 30px;
   margin-top: 30px;
 `;
-
