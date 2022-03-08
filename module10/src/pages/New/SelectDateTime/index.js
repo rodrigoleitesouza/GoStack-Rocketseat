@@ -6,11 +6,11 @@ import api from '../../../services/api';
 
 import { Container, HourList, Hour, Title } from './styles';
 
-export default function SelectDateTime({ navigation }) {
+export default function SelectDateTime({ route, navigation }) {
   const [date, setDate] = useState(new Date());
   const [hours, setHours] = useState([]);
 
-  const provider = navigation.setParams(`provider`);
+  const { provider } = route.params;
 
   useEffect(() => {
     async function loadAvailable() {
