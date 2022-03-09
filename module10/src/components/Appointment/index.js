@@ -22,7 +22,7 @@ export default function Appointment({ data, onCancel }) {
       <Left>
         <Avatar source={{
           uri:
-            data.provider.avatar ? data.provider.avatar.url : 'https://i.ibb.co/fnZY4Nc/244412150-4339573332789091-124622265567051095-n-Copia.jpg'
+            data.provider.avatar ? data.provider.avatar.url.replace('localhost', '192.168.21.144') : 'https://i.ibb.co/fnZY4Nc/244412150-4339573332789091-124622265567051095-n-Copia.jpg'
         }} />
 
         <Info>

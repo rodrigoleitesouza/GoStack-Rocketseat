@@ -26,7 +26,7 @@ export default function Header() {
               <strong>{profile.name}</strong>
               <Link to="/profile">Meu perfil</Link>
             </div>
-            <img src={profile.avatar.url || "https://i.ibb.co/fnZY4Nc/244412150-4339573332789091-124622265567051095-n-Copia.jpg"}  alt="Rodrigo Souza" />
+            <img src={profile.avatar.url || "https://i.ibb.co/fnZY4Nc/244412150-4339573332789091-124622265567051095-n-Copia.jpg"}  alt="https://i.ibb.co/fnZY4Nc/244412150-4339573332789091-124622265567051095-n-Copia.jpg" />
           </Profile>
         </aside>
       </Content>

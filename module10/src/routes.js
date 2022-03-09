@@ -62,15 +62,15 @@ function Routes() {
             tabBarLabel: 'Agendar',
             headerTransparent: true,
             headerTintColor: '#FFF',
-
+            headerLeftContainerStyle: {
+              marginLeft: 20,
+            },
             headerLeft: () => (
               <TouchableOpacity onPress={() => { navigation.navigate('Dashboard') }}>
                 <Icon name="chevron-left" size={20} color="#FFF" />
               </TouchableOpacity>
             ),
-            headerLeftContainerStyle: {
-              marginLeft: 15,
-            },
+
             tabBarIcon: () => <Icon name="add-circle-outline" size={20} color="#FFF" />,
           })}
         />

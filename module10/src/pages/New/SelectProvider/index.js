@@ -29,7 +29,8 @@ export default function SelectProvider({ navigation }) {
             <Provider onPress={() => navigation.navigate('SelectDateTime', { provider })}>
               <Avatar source={{
                 uri:
-                provider.avatar ? provider.avatar.url : 'https://i.ibb.co/fnZY4Nc/244412150-4339573332789091-124622265567051095-n-Copia.jpg'
+                provider.avatar ? provider.avatar.url.replace('localhost', '192.168.21.144')
+                : 'https://i.ibb.co/fnZY4Nc/244412150-4339573332789091-124622265567051095-n-Copia.jpg'
               }} />
               <Name>{provider.name}</Name>
             </Provider>
