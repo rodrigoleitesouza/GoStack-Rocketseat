@@ -113,7 +113,7 @@ function Routes() {
           <Stack.Screen
             name="Confirm"
             component={Confirm}
-            options={{
+            options={({ navigation }) => ({
               title: "Confirm Page",
               headerTitleAlign: "center",
               headerBackTitleVisible: false,
@@ -125,7 +125,12 @@ function Routes() {
               headerLeftContainerStyle: {
                 marginLeft: 20,
               },
-            }}
+              headerLeft: () => (
+                <TouchableOpacity onPress={() => { navigation.goBack() }}>
+                  <Icon name="chevron-left" size={20} color="#FFF" />
+                </TouchableOpacity>
+              ),
+            })}
           />
         </Stack.Navigator>
       </>) : (<>
