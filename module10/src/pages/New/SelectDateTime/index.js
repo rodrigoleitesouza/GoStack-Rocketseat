@@ -26,6 +26,13 @@ export default function SelectDateTime({ route, navigation }) {
     loadAvailable();
   }, [date, provider.id]);
 
+  function handleSelectHour(time) {
+    navigation.navigate('Confirm', {
+      provider,
+      time,
+    });
+  }
+
   console.tron.warn(typeof date);
   console.tron.warn(date);
   console.tron.warn(typeof setDate);
@@ -40,7 +47,7 @@ export default function SelectDateTime({ route, navigation }) {
           data={hours}
           keyExtractor={item => item.time}
           renderItem={({ item }) => (
-            <Hour onPress={() => {}} enable={item.available}>
+            <Hour onPress={() => handleSelectHour(item.value)} enable={item.available}>
               <Title>{item.time}</Title>
             </Hour>
           )}
