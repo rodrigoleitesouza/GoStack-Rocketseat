@@ -17,6 +17,7 @@ export default function Appointment({ data, onCancel }) {
     [data.date],
   );
 
+
   return (
     <Container past={data.past}>
       <Left>
