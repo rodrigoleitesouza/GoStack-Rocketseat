@@ -10,4 +10,3 @@ factory.define('User', User, {
 })
 
 export default factory;
-
