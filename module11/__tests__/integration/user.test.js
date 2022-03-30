@@ -41,6 +41,7 @@ describe('User', () => {
       .post('/users')
       .send(user);
 
+
     expect(response.status).toBe(400);
   });
 });
