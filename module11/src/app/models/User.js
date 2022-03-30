@@ -20,7 +20,7 @@ class User extends Model {
 
     return this;
   }
-
 }
+
 
 export default User;
