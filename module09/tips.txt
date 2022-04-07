@@ -29,4 +29,3 @@ yarn add react-perfect-scrollbar@1.5.3
 yarn add date-fns@next
 
 yarn add date-fns-tz@1.0.7
-
