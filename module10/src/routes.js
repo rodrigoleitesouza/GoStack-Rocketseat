@@ -114,7 +114,7 @@ function Routes() {
             name="Confirm"
             component={Confirm}
             options={({ navigation }) => ({
-              title: "Confirm Page",
+              title: "Confirme seu agendamento",
               headerTitleAlign: "center",
               headerBackTitleVisible: false,
               headerStyle: {
@@ -139,7 +139,7 @@ function Routes() {
             name="SignIn"
             component={SignIn}
             options={{
-              title: "SignIn Page1",
+              title: "Faça seu login",
               headerTitleAlign: "center",
               headerBackTitleVisible: false,
               headerStyle: {
