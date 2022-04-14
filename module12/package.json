@@ -36,6 +36,7 @@
     },
     "collectCoverageFrom": [
       "!src/index.js",
+      "!src/App.js",
       "!src/services/api.js"
      ],
     "coverageDirectory": "__tests__/coverage"

@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1579048717054" clover="3.2.0">
-  <project timestamp="1579048717054" name="All files">
-    <metrics statements="33" coveredstatements="32" conditionals="5" coveredconditionals="5" methods="18" coveredmethods="17" elements="56" coveredelements="54" complexity="0" loc="33" ncloc="33" packages="4" files="6" classes="6"/>
-    <package name="src">
-      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="App.js" path="/home/aganhara/Projects/GoStack/modulo12/src/App.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.componentes.TechList">
+<coverage generated="1649896365370" clover="3.2.0">
+  <project timestamp="1649896365370" name="All files">
+    <metrics statements="32" coveredstatements="32" conditionals="5" coveredconditionals="5" methods="17" coveredmethods="17" elements="54" coveredelements="54" complexity="0" loc="32" ncloc="32" packages="3" files="5" classes="5"/>
+    <package name="componentes.TechList">
       <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
-      <file name="index.js" path="/home/aganhara/Projects/GoStack/modulo12/src/componentes/TechList/index.js">
+      <file name="index.js" path="C:\Users\rdg\Documents\GitHub\GoStack-Rocketseat\module12\src\componentes\TechList\index.js">
         <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
         <line num="6" count="8" type="stmt"/>
         <line num="7" count="8" type="stmt"/>
@@ -25,12 +18,12 @@
         <line num="26" count="2" type="stmt"/>
         <line num="28" count="8" type="stmt"/>
         <line num="31" count="3" type="stmt"/>
-        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="src.componentes.TechListRedux">
+    <package name="componentes.TechListRedux">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
-      <file name="index.js" path="/home/aganhara/Projects/GoStack/modulo12/src/componentes/TechListRedux/index.js">
+      <file name="index.js" path="C:\Users\rdg\Documents\GitHub\GoStack-Rocketseat\module12\src\componentes\TechListRedux\index.js">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
         <line num="9" count="3" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
@@ -41,15 +34,15 @@
         <line num="24" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="src.store.modules.techs">
+    <package name="store.modules.techs">
       <metrics statements="12" coveredstatements="12" conditionals="3" coveredconditionals="3" methods="6" coveredmethods="6"/>
-      <file name="actions.js" path="/home/aganhara/Projects/GoStack/modulo12/src/store/modules/techs/actions.js">
+      <file name="actions.js" path="C:\Users\rdg\Documents\GitHub\GoStack-Rocketseat\module12\src\store\modules\techs\actions.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="2" count="3" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
         <line num="16" count="2" type="stmt"/>
       </file>
-      <file name="reducers.js" path="/home/aganhara/Projects/GoStack/modulo12/src/store/modules/techs/reducers.js">
+      <file name="reducers.js" path="C:\Users\rdg\Documents\GitHub\GoStack-Rocketseat\module12\src\store\modules\techs\reducers.js">
         <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -57,7 +50,7 @@
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
       </file>
-      <file name="sagas.js" path="/home/aganhara/Projects/GoStack/modulo12/src/store/modules/techs/sagas.js">
+      <file name="sagas.js" path="C:\Users\rdg\Documents\GitHub\GoStack-Rocketseat\module12\src\store\modules\techs\sagas.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
