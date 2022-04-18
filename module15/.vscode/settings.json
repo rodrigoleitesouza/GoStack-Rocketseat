@@ -1,0 +1,21 @@
+{
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.showWelcomeMessage": false,
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "editor.parameterHints.enabled":false,
+  "breadcrumbs.enabled": true,
+  "javascript.suggest.autoImports": false,
+}
