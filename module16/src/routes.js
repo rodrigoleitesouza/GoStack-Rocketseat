@@ -30,6 +30,7 @@ const bruteStore = new BruteRedis({
   port: process.env.REDIS_PORT,
 });
 
+
 const bruteForce = new Brute(bruteStore);
 
 routes.post("/users", validateUserStore, UserController.store);
